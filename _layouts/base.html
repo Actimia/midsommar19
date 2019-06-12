@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <body>
+        <header class="container center">
+            <a href="/" class="logo container center">
+                <img src="/static/logo.jpg" alt="sångbok" height="75" width="75">
+                <h2>Sångboken</h2>
+            </a>
+            <div class="spacer"></div>
+            <nav class="container center">
+                <a href="/songs/">Sånger</a>
+            </nav>
+        </header>
+        <main>
+            {{ content }}
+        </main>
+        <footer>
+            &copy; Viking Edström 2019
+        </footer>
+    </body>
+</html>

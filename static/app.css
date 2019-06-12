@@ -1,0 +1,84 @@
+:root {
+    --content-width: 50em;
+    --primary: cornflowerblue;
+    --font-stack: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body, html {
+    font-family: var(--font-stack);
+    font-size: 16px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100%;
+    color: #ccc;
+    background-color: #333;
+}
+
+header, main, footer {
+    width: var(--content-width);
+    max-width: 100vw;
+    margin: 1em;
+}
+
+main {
+    flex: 1 1 auto;
+}
+
+.container {
+    display: flex;
+}
+
+.container.vertical {
+    flex-direction: column;
+}
+
+.container.center {
+    align-items: center;
+}
+
+.container .spacer {
+    flex: 1;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+.logo {
+    align-items: center;
+}
+
+.logo>img {
+    height: 75px;
+    width: 75px;
+    margin-right: 1em;
+}
+
+.song {
+    font-family: monospace;
+    white-space: pre;
+    line-height: 2.5;
+}
+
+.song span[data-chord] {
+    position: relative;
+}
+
+.song span[data-chord]::before {
+    display: inline-block;
+    content: attr(data-chord);
+    position: absolute;
+    line-height: 1.25;
+    bottom: 1em;
+}

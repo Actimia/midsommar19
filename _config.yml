@@ -1,0 +1,33 @@
+
+title: Sångbok
+email: actimia1@gmail.com
+description: >- 
+  En elektronisk sångbok med alla favoriterna.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: actim1a
+github_username:  actimia
+
+collections:
+  songs:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "base"
+  -
+    scope:
+      path: ""
+      type: songs
+    values:
+      layout: "song"
+      permalink: /songs/:title/
+
+
+# Build settings
+markdown: kramdown
+plugins: []
+
