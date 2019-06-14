@@ -1,7 +1,6 @@
-
 title: Sångbok
 email: actimia1@gmail.com
-description: >- 
+description: >-
   En elektronisk sångbok med alla favoriterna.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -13,13 +12,11 @@ collections:
     output: true
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: "base"
-  -
-    scope:
+  - scope:
       path: ""
       type: songs
     values:
@@ -30,4 +27,6 @@ defaults:
 # Build settings
 markdown: kramdown
 plugins: []
+
+exclude: [".idea", "Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
 

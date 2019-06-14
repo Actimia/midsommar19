@@ -7,36 +7,38 @@
         return window.localStorage.getItem(name) || defaultvalue
     }
 
+    var fontsizeIn = document.getElementById('fontsize')
+    var showchordsIn = document.getElementById('showchords')
+
     function updateFontsize(size) {
         document.documentElement.style.setProperty('--song-font-size', (size || 16) + 'px');
     }
 
     function updateShowchords(show) {
-        var classlist = document.querySelector('.song').classList
-        if (show) {
-            classlist.add('showchords')
-        } else {
-            classlist.remove('showchords')
-        }
+        var song = document.querySelector('.song')
+        if (!song) return
+        song.classList.toggle('showchords', show)
     }
 
-    document.getElementById('fontsize').onchange = function(ev) {
+    fontsizeIn.onchange = function(ev) {
         var value = ev.target.value
         updateFontsize(value)
-        set('font-size', value)
+        set('fontsize', value)
     }
 
-    document.getElementById('showchords').onchange = function(ev) {
+    showchordsIn.onchange = function(ev) {
         var checked = ev.target.checked
         updateShowchords(checked)
-        set('show-chords', checked)
+        set('showchords', '' + checked)
     }
 
-    var fontsize = get('font-size', 16)
+    var fontsize = get('fontsize', 16)
+    console.log('got fontsize: ', fontsize)
     updateFontsize(fontsize)
-    document.getElementById('fontsize').value = fontsize
+    fontsizeIn.value = fontsize
 
-    var showchords = get('show-chords', false)
-    document.getElementById('showchords').checked = showchords
+    var showchords = JSON.parse(get('showchords', 'false'))
+    console.log('got showchords: ', showchords)
+    showchordsIn.checked = showchords
     updateShowchords(showchords)
 }()
