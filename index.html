@@ -4,7 +4,7 @@ layout: base
 {% assign songlists = site.songs | group_by:"category" %}
 {% for songlist in songlists %}
 <section class="container vertical center">
-<h2>{{songlist.name}}</h2>
+<h2 class="highlighted">{{songlist.name}}</h2>
 <div class="songlist container">
     {% assign songs = songlist.items | sort: "artist" %}
     {% for song in songs %}

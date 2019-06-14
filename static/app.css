@@ -25,7 +25,7 @@ body {
     min-height: 100vh;
     min-width: 100%;
     color: #ddd;
-    background-color: #333338;
+    background: #333338 linear-gradient(var(--primary), transparent 40px);
 }
 
 header, footer {
@@ -36,10 +36,6 @@ header, footer {
 
 section {
     margin-bottom: 2em;
-}
-
-header {
-    background: linear-gradient(var(--primary), transparent 50%);
 }
 
 main {
@@ -126,7 +122,6 @@ h2 {
 }
 
 h2 {
-    /*font-family: serif;*/
     margin-bottom: .5em;
 }
 
@@ -137,10 +132,16 @@ h2 {
 }
 
 .songlist > .list-item {
-    margin: 0.33em 1em;
+    margin: 0.33em 1em 0.33em 0;
+    display: flex;
 }
 
 .songlist > .list-item::before {
     counter-increment: song;
     content: '[' counter(song) '] ';
+    margin-right: 0.5em;
+}
+
+.songlist > .list-item > a {
+    display: block;
 }
