@@ -8,15 +8,21 @@
                 <h2>Sångboken</h2>
             </a>
             <div class="spacer"></div>
-            <nav class="container center">
-                <a href="/songs/">Sånger</a>
-            </nav>
+
         </header>
-        <main>
+        <main class="container vertical center">
             {{ content }}
         </main>
-        <footer>
-            &copy; Viking Edström 2019
+        <footer class="container"  style="justify-content: space-evenly;">
+            <div class="container vertical control">
+                <label for="fontsize">Textstorlek</label>
+                <input type="range" min=12 max=30 value=16 id="fontsize">
+            </div>
+            <div class="container control" style="align-items: center;">
+                <label for="showchords">Visa ackord</label>
+                <input type="checkbox" id="showchords" style="margin-left: .5em;">
+            </div>
         </footer>
+        <script src="/static/app.js"></script>
     </body>
 </html>
