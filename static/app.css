@@ -99,6 +99,7 @@ h2 {
 }
 .song {
     font-size: var(--song-font-size);
+    max-width: 100%;
     white-space: pre-wrap;
     overflow-x: hidden;
 }
