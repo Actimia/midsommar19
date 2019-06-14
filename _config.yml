@@ -10,6 +10,7 @@ github_username:  actimia
 collections:
   songs:
     output: true
+    permalink: /songs/:title/
 
 defaults:
   - scope:
@@ -21,7 +22,21 @@ defaults:
       type: songs
     values:
       layout: "song"
-      permalink: /songs/:title/
+  - scope:
+      path: "_songs/english"
+      type: songs
+    values:
+      category: In english
+  - scope:
+      path: "_songs/swedish"
+      type: songs
+    values:
+      category: Svenska sånger
+  - scope:
+      path: "_songs/snapsvisor"
+      type: songs
+    values:
+      category: Snapsvisor
 
 
 # Build settings

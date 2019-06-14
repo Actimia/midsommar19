@@ -1,5 +1,5 @@
 :root {
-    --content-width: 50em;
+    --content-width: 50rem;
     --primary: cornflowerblue;
     --secondary: #5c75a3;
     --font-stack: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -24,8 +24,8 @@ body {
     align-items: center;
     min-height: 100vh;
     min-width: 100%;
-    color: #ccc;
-    background-color: #333;
+    color: #ddd;
+    background-color: #333338;
 }
 
 header, footer {
@@ -34,12 +34,17 @@ header, footer {
     padding: 1em;
 }
 
+section {
+    margin-bottom: 2em;
+}
+
 header {
     background: linear-gradient(var(--primary), transparent 50%);
 }
 
 main {
-    max-width: 100vw;
+    width: var(--content-width);
+    max-width: 100%;
     padding: 1em;
     flex: 1 1 auto;
 }
@@ -78,11 +83,23 @@ a:visited {
     width: 75px;
     margin-right: 1em;
 }
-
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+h2 {
+    font-size: 1.66em;
+    text-align: center;
+}
+.artist {
+    border-top: 1px solid var(--primary);
+}
+.highlighted {
+    text-shadow: 0 0 1em var(--primary);
+}
 .song {
     font-size: var(--song-font-size);
     white-space: pre-wrap;
-    width: 100%;
     overflow-x: hidden;
 }
 
@@ -107,9 +124,14 @@ a:visited {
     margin: 10px;
 }
 
+h2 {
+    /*font-family: serif;*/
+    margin-bottom: .5em;
+}
+
 .songlist {
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     counter-reset: song;
 }
 
@@ -119,5 +141,5 @@ a:visited {
 
 .songlist > .list-item::before {
     counter-increment: song;
-    content: counter(song) ' ';
+    content: '[' counter(song) '] ';
 }

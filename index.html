@@ -1,20 +1,17 @@
 ---
 layout: base
 ---
-<ol class="songs">
-    {% assign songlist = site.songs | sort: "artist" %}
-{% for song in songlist  %}
-    <li>
-        <a href="{{song.url}}">{{song.title}} ({{song.artist}})</a>
-    </li>
-{% endfor %}
-</ol>
-
+{% assign songlists = site.songs | group_by:"category" %}
+{% for songlist in songlists %}
+<section class="container vertical center">
+<h2>{{songlist.name}}</h2>
 <div class="songlist container">
-    {% assign songlist = site.songs | sort: "artist" %}
-    {% for song in songlist  %}
+    {% assign songs = songlist.items | sort: "artist" %}
+    {% for song in songs %}
     <div class="list-item">
         <a href="{{song.url}}">{{song.title}} ({{song.artist}})</a>
     </div>
     {% endfor %}
 </div>
+</section>
+{% endfor %}

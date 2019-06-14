@@ -1,8 +1,6 @@
 ---
 title: Africa
 artist: Toto
-year: 1982
-category: På engelska
 ---
 [A#](int[Dm]ro x4)
 
