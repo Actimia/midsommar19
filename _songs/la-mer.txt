@@ -1,6 +1,7 @@
 ---
 title: La Mer
 artist: Charles Trenet
+category: Totalt obegripliga
 ---
 [G]  [Em]  [C]  [E7]  [Am]  [D]
 
