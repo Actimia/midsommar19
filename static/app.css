@@ -103,8 +103,8 @@ h2 {
 }
 
 .song.showchords {
-    white-space: pre-wrap;
     line-height: 2.5;
+    font-family: monospace;
 }
 
 .song.showchords span[data-chord] {
