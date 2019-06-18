@@ -1,5 +1,6 @@
 {
     "name": "Midsommar",
+    "description": "Sångbok för midsommar och andra tillfällen",
     "short_name": "Midsommar",
     "icons": [
         {
@@ -10,5 +11,8 @@
     ],
     "theme_color": "#6495ed",
     "background_color": "#6495ed",
-    "display": "standalone"
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "start_url": "/",
+    "serviceworker": {"src": "./service-worker.js" },
 }

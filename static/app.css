@@ -2,6 +2,8 @@
     --content-width: 50rem;
     --primary: cornflowerblue;
     --secondary: #5c75a3;
+    --text: #ddd;
+    --background: #333338;
     --font-stack: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 
     --song-font-size: 16px;
@@ -24,8 +26,8 @@ body {
     align-items: center;
     min-height: 100vh;
     min-width: 100%;
-    color: #ddd;
-    background: #333338 linear-gradient(var(--primary), transparent 40px);
+    color: var(--text);
+    background: var(--background) linear-gradient(var(--primary), transparent 40px);
 }
 
 header, footer {
