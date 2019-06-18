@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c9106ee-d136-4083-8025-7190e67566a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_songs/english/hey-mr-tambourine-man.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_songs/english/im-gonna-be.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_songs/english/ive-been-everywhere.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_songs/hva-gjør-vi-nu-lille-du.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_songs/swedish/balladen-om-briggen-blue-bird-av-hull.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_songs/swedish/calle-schewens-vals.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_songs/swedish/jag-väntar.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_songs/swedish/möte-i-monsunen.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_songs/swedish/stad-i-ljus.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_songs/swedish/timglas.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_songs/swedish/tvivel.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/convert.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/midsommar19.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/midsommar19.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/base.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,15 +25,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_songs/english/im-gonna-be.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_songs/swedish/jag-väntar.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
@@ -61,6 +38,20 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
               <caret line="7" column="64" lean-forward="true" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_layouts/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="n#style#0;n#h2#0;n#a#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,6 +75,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_songs/swedish/calle-schewens-vals.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
@@ -101,20 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_songs/english/hey-mr-tambourine-man.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1178">
-              <caret line="62" selection-start-line="62" selection-end-line="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_songs/swedish/balladen-om-briggen-blue-bird-av-hull.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+            <state relative-caret-position="445">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
             </state>
           </provider>
         </entry>
@@ -183,7 +174,6 @@
         <option value="$PROJECT_DIR$/static/app.css" />
         <option value="$PROJECT_DIR$/_songs/english/la-mer.txt" />
         <option value="$PROJECT_DIR$/_songs/la-mer.txt" />
-        <option value="$PROJECT_DIR$/_layouts/base.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_songs/lieder-der-freiheit.txt" />
         <option value="$PROJECT_DIR$/_songs/swedish/Timglas.txt" />
@@ -201,6 +191,7 @@
         <option value="$PROJECT_DIR$/_songs/swedish/calle-schewens-vals.txt" />
         <option value="$PROJECT_DIR$/_songs/swedish/stad-i-ljus.txt" />
         <option value="$PROJECT_DIR$/_songs/english/hey-mr-tambourine-man.txt" />
+        <option value="$PROJECT_DIR$/_layouts/base.html" />
       </list>
     </option>
   </component>
@@ -227,19 +218,7 @@
             <path>
               <item name="midsommar19" type="b2602c69:ProjectViewProjectNode" />
               <item name="midsommar19" type="462c0819:PsiDirectoryNode" />
-              <item name="_songs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="midsommar19" type="b2602c69:ProjectViewProjectNode" />
-              <item name="midsommar19" type="462c0819:PsiDirectoryNode" />
-              <item name="_songs" type="462c0819:PsiDirectoryNode" />
-              <item name="english" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="midsommar19" type="b2602c69:ProjectViewProjectNode" />
-              <item name="midsommar19" type="462c0819:PsiDirectoryNode" />
-              <item name="_songs" type="462c0819:PsiDirectoryNode" />
-              <item name="swedish" type="462c0819:PsiDirectoryNode" />
+              <item name="_layouts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="midsommar19" type="b2602c69:ProjectViewProjectNode" />
@@ -293,7 +272,7 @@
       <updated>1560533131828</updated>
       <workItem from="1560533133844" duration="409000" />
       <workItem from="1560533544664" duration="10677000" />
-      <workItem from="1560871297850" duration="16094000" />
+      <workItem from="1560871297850" duration="16434000" />
     </task>
     <task id="LOCAL-00001" summary="Added all the songs">
       <created>1560539187457</created>
@@ -327,7 +306,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27180000" />
+    <option name="totallyTimeSpent" value="27520000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -480,18 +459,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-          <folding>
-            <element signature="n#style#0;n#h2#0;n#a#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_site/sw-register.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -503,13 +470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6128">
           <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -641,8 +601,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_songs/english/hey-mr-tambourine-man.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1178">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="445">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#a#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
