@@ -54,7 +54,7 @@ pwa:
 
 # Build settings
 markdown: kramdown
-plugins: []
+#plugins: []
 
 exclude: [".idea", "Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/", "bin"]
 

@@ -9,6 +9,7 @@
 
     var fontsizeIn = document.getElementById('fontsize')
     var showchordsIn = document.getElementById('showchords')
+    var lightmodeIn = document.getElementById('lightmode')
 
     function updateFontsize(size) {
         document.documentElement.style.setProperty('--song-font-size', (size || 16) + 'px');
@@ -18,6 +19,11 @@
         var song = document.querySelector('.song')
         if (!song) return
         song.classList.toggle('showchords', show)
+    }
+
+    function updateLightmode(onoff) {
+        var body = document.body
+        body.classList.toggle('lightmode', onoff)
     }
 
     fontsizeIn.onchange = function(ev) {
@@ -32,6 +38,12 @@
         set('showchords', '' + checked)
     }
 
+    lightmodeIn.onchange = function(ev) {
+        var onoff = ev.target.checked
+        updateLightmode(onoff)
+        set('lightmode', '' + onoff)
+    }
+
     var fontsize = get('fontsize', 16)
     console.log('got fontsize: ', fontsize)
     updateFontsize(fontsize)
@@ -41,4 +53,10 @@
     console.log('got showchords: ', showchords)
     showchordsIn.checked = showchords
     updateShowchords(showchords)
+
+    var lightmode = JSON.parse(get('lightmode', 'false'))
+    console.log('got lightmode: ', lightmode)
+    updateLightmode(lightmode)
+    lightmodeIn.checked = lightmode
+
 }()

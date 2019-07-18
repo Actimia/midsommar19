@@ -28,6 +28,8 @@ body {
     min-width: 100%;
     color: var(--text);
     background: var(--background) linear-gradient(var(--primary), transparent 40px);
+
+    counter-reset: song;
 }
 
 header, footer {
@@ -115,8 +117,9 @@ h2 {
     display: inline-block;
     content: attr(data-chord);
     position: absolute;
-    line-height: 1.25;
-    bottom: 1em;
+    line-height: 1.6;
+    bottom: 0;
+    height: 2.5em;
 }
 
 .control {
@@ -130,7 +133,6 @@ h2 {
 .songlist {
     flex-wrap: wrap;
     justify-content: space-between;
-    counter-reset: song;
 }
 
 .songlist > .list-item {
@@ -146,4 +148,31 @@ h2 {
 
 .songlist > .list-item > a {
     display: block;
+
+}
+
+.lightmode {
+    --background: #eee;
+    --text: #333;
+}
+
+@media print {
+    :root {
+        --background: white;
+        --text: #333;
+        --primary: #000;
+        --song-font-size: 12px;
+    }
+
+    body {
+        background: var(--background);
+    }
+
+    .highlighted {
+        text-shadow: none;
+    }
+
+    header, footer {
+        display: none !important;
+    }
 }
