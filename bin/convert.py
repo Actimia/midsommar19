@@ -5,32 +5,26 @@ import re
 def strip_frontmatter(lines):
     return lines[lines.index('---\n', 1) + 1:]
 
-def fixline(one, two):
-    #print(one, '\n', two, '\n')
-    if one == '' and two == '':
-        return ''
-    
+def fixline(chords, text):
+    # Pad the text line to support chords coming after the text.
+    # string multiplication equals '' for negative numbers
+    text += ' ' * (len(chords) - len(text))
+
+    # all groups of non-whitespace are taken as a chord
     chordrx = re.compile(r'([\S]+)')
-    chords = re.finditer(chordrx, one)
-    if len(one) > len(two):
-        two += ' ' * (len(one) - len(two))
+    chords = re.finditer(chordrx, chords)
+
+    # Reversing the list so that previous insertions do not affect the 
+    # position of later matches. If we did not reverse, we would have to keep
+    # track of the number of chars inserted in the text line.
     for chord in reversed(list(chords)):
         start = chord.start()
-        formatted = f'[{chord.group()}]'
-        two = two[:start] + formatted + two[start:]
-    return two.strip()
+        text =  f'{text[:start]}[{chord.group()}]{text[start:]}'
+    return text.strip()
 
 def convert(f):
-    lines = [line[:len(line)-1] for line in strip_frontmatter(f.readlines())]
-    
-    gen = (x for x in lines)
-    
-    res = []
-    try:
-        while True:
-            res.append(fixline(next(gen), next(gen)))
-    except StopIteration:
-        pass
+    lines = [line[:len(line) - 1] for line in strip_frontmatter(f.readlines())]
+    res = [fixline(chords, text) for chords, text in zip(lines[::2], lines[1::2])]
     return res
     
 
