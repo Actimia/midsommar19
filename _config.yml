@@ -37,6 +37,10 @@ defaults:
       type: songs
     values:
       category: Snapsvisor
+  - scope:
+      path: "static/sheetmusic"
+    values:
+      sheetmusic: true
 
 pwa:
   sw_src_filepath: service-worker.js # Optional
