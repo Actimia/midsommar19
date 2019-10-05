@@ -1,0 +1,14 @@
+---
+layout: base
+---
+<section class="container vertical center">
+<h2 class="highlighted">Sheet Music</h2>
+<div class="songlist container">
+    {% assign pdfs = site.static_files | where: "sheetmusic", true %}
+    {% for pdf in pdfs %}
+    <div class="list-item">
+        <a href="{{pdf.url}}">{{pdf.name}}</a>
+    </div>
+    {% endfor %}
+</div>
+</section>
