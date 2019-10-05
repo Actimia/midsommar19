@@ -7,7 +7,7 @@ layout: base
     {% assign pdfs = site.static_files | where: "sheetmusic", true %}
     {% for pdf in pdfs %}
     <div class="list-item">
-        <a href="{{pdf.url}}">{{pdf.name}}</a>
+        <a href="{{pdf.path}}">{{pdf.name}}</a>
     </div>
     {% endfor %}
 </div>
