@@ -17,7 +17,7 @@ artist: Metallica
 [Em7]Open mind for a [D]different view  [Cadd9]     
 [G]And [B]nothing else [Em7]matters
 
-[C]D       [A]                  C     A
+[C]  [D]       [A]                  [C]     [A]
 Never cared for what they do
 [D]Never cared for what they [C]know  [A] 
 [D]But I know[Em7]   
@@ -27,7 +27,7 @@ So close no matter [D]how fa[Cadd9]r    
 [Em7]Forever trusting [D]who we [Cadd9]are  
 [G]And [B]nothing else [Em7]matters
 
-[C]D       [A]                  C     A
+[C]  [D]       [A]                  [C]     [A]
 Never cared for what they do
 [D]Never cared for what they [C]know  [A] 
 [D]But I [Em7]know
