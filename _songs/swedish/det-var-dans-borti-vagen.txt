@@ -3,8 +3,8 @@ title: Det var dans borti vägen
 artist: Fröding & SvenIngvars
 ---
 Det var d[C]ans bort i [G7]vägen på l[C]ördagsnatten
-över [D7]nejden gick låten och sp[G]elen och skratten
-det var tjo det var h[D7]opp! det var h[G]ej!
+över [D7]nejden gick låten av sp[G]elet och skratten
+det var tjo! det var h[D7]opp! det var h[G]ej!
 Nils [G7]Utterman, token och sp[C]elmansfanten,
 han s[Dm]att med sitt b[G]älgspel vid l[C]andsvägsk[Am]anten,
 för [G7]dudeli! dudeli! d[C]ej!
@@ -12,8 +12,8 @@ för [G7]dudeli! dudeli! d[C]ej!
 Där var Bolla, den präktiga Takeneflickan,
 hon är fager och fin, men har intet i fickan,
 hon är gäcksam och skojsam och käck.
-Där var Kersti, den trotsiga, vandrande, vilda, där
-var Finnbacka-Britta och Kajsa och Tilda
+Där var Kersti, den trotsiga, vandrande, vilda, 
+där var Finnbacka-Britta och Kajsa och Tilda
 och den snudiga Marja i Bäck.
 
 Där var Petter i Toppsta och Gusten i Backen,
@@ -49,4 +49,4 @@ och en uv skrek uhu! ifrån Brynbärsbråten,
 och de märkte, de hörde det ej.
 Men uhu! hördes ekot i Getberget skria,
 och till svar på Nils Uttermans dudelidia!
-kom det dudeli! dudeli dej!
+kom det dudeli! dudeli! dej!

@@ -4,12 +4,12 @@ artist: Andersson & Ulvaeus
 ---
 Ha[E]n kom med mi[A]g när jag drog bo[E]rt den våren,
 som en [E]hund följde [A]han mig tätt i [E]spåren.
-Jag var [B]glad åt hans [E]sällskap när jag [A]sökte Guldets land,
+Jag var [B]glad åt hans [E]sällskap när jag [A]sökte guldets land,
 men Kr[E]istina, [B]guldet blev till [E]sand.
 
 Vi slet ont, ja, allt gott fick vi försaka.
 Ofta grät han och bad: Ta mig tillbaka!
-Men jag vägrade alltid fast jag tvekade ibland.
+Men jag vägrade alltid, fast jag tvekade ibland.
 Åh, Kristina, guldet blev till sand
 
 [A]Han, som [B]var min [A]kamrat,
@@ -19,7 +19,7 @@ fanns [A]knappast det jag [E]ville n[B]å.
 
 Över prärien kom vi till en öken.
 Vi gick vilse och började se spöken.
-Man gör vatten som porlar, när ens huvud står i brand.
+Man hör vatten som porlar, när ens huvud står i brand.
 Åh, Kristina, guldet blev till sand.
 
 Jag, som var hans kamrat,
@@ -30,5 +30,5 @@ ett täcke över hans tysta grav.
 Ur en [A]stinkande [D]källa drack han [A]vatten.
 Han blev [A]sjuk och gick [D]bort från mig den [A]natten.
 När hans [E]blick hade [A]slocknat då gled [D]klockan ur hans hand
-och K[A]ristina [E]guldet blev till [A]sand.
+och Kris[A]tina [E]guldet blev till [A]sand.
 [D]Åh, [A]Kristina, [E]guldet blev till [A]sand.
